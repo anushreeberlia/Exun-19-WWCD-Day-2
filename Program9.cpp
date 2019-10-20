@@ -19,7 +19,7 @@ void func(int* arr, int si, int ei){
     if(si <= ei){
         int mid = (si + ei)/2;
         func(arr, si, mid);
-        func(arr, mid + 1, ei);
+        func(arr, si, mid + 1, ei);
     }
 }
 
