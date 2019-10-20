@@ -12,7 +12,7 @@ void spiralPrint(int m, int n, int a[R][C])
             cout << a[i][n - 1] << " ";
         }
         if (k < m) {
-            for (i = n - 1; i >= l; --i) {
+            for (i = n - 2; i >= l; --i) {
                 cout << a[m - 1][i] << " ";
             }
             m--;
