@@ -6,7 +6,7 @@
 using namespace std;
 int arr[10];
 int main(){
-	int arr[5] ={10, 11, 12 , 13, 14};
+	 arr[5] ={10, 11, 12 , 13, 14};
 	cout << *(arr + 1) << endl;
 	cout << *(arr + 0) << endl;
 	cout << 1[arr] << endl;
