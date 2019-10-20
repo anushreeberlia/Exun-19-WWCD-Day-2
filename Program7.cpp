@@ -4,12 +4,15 @@
 void Leaders(int* arr,int len) {
  	int j=0; int *save = new int[len]; 
 	int largest=INT_MIN;
- 	for(int i=len-1;i>=0;i--) {
- 	if(largest>=arr[i]) {
+ 	for(int i=0;i<=len-1;i++) 
+	{
+ 	if(largest<=arr[i])
+	{
  		save[j]=arr[i]; 
 		largest=arr[i]; 
 	} 
 	}
+	
  	for(int i=0;i<=j-1;i++) 
 	{ 
 		cout<<save[i] << " ";
