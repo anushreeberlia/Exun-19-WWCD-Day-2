@@ -7,6 +7,7 @@ int function(int n) {
         int r = temp % 10;  
         value += r * c; 
         c *= 2; 
+        temp=temp/10;
     } 
     return value; 
 }
