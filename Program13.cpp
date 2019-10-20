@@ -12,10 +12,12 @@ void function(char input[]) {
                 input[k]=temp;
                 cws++;k--;
             }
+           csw=i+1;
         }
         i++;  
     } 
     if(input[i]=='\0'){
+        k=i-1;
         while(cws<k){  
             temp=input[cws];
             input[cws]=input[k];
