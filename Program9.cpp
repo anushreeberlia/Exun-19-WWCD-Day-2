@@ -18,7 +18,7 @@ void merge(int* arr, int si, int mid, int ei){
 void func(int* arr, int si, int ei){
     if(si <= ei){
         int mid = (si + ei)/2;
-        func(arr, si, mid);
+        func(arr, si, mid, ei);
         func(arr, mid + 1, ei);
     }
 }
